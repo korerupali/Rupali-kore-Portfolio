@@ -10,9 +10,9 @@ document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
 });
 
 // Optional: If you want the navbar to be shown again after the link is clicked
-// document.querySelector('.navbar-toggler').addEventListener('click', function() {
-//     document.querySelector('.navbar-collapse').classList.remove('hide-navbar');
-// });
+document.querySelector('.navbar-toggler').addEventListener('click', function() {
+    document.querySelector('.navbar-collapse').classList.remove('hide-navbar');
+});
 
 
 
