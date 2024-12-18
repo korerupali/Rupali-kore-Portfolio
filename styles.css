@@ -264,7 +264,6 @@ body {
 /* contact section styling */
 
 .contact-section {
-    /* text-align: center; */
     padding: 50px;
     background-color: #f9f9f9;
 }
@@ -276,8 +275,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* display: block;
-    margin: auto; */
     background-color: #08672f;
     margin-top: 30px;
     width: 600px;
@@ -288,8 +285,7 @@ body {
     color: #dce6b7;
     margin-bottom: 30px;
     padding-top: 20px;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .list-unstyled li {
@@ -299,7 +295,7 @@ body {
 
 .fa {
     margin-right: 8px;
-    color: #007bff; /* Customize icon color */
+    color: #007bff; 
 }
 .form-info{
     background-color: #112946;
@@ -318,13 +314,6 @@ body {
     
 }
 
-
-/* .contact-info {
-    margin-bottom: 30px;
-   
-} */
-
-
 .contact-info a {
     color: #0066cc;
     text-decoration: none;
@@ -333,17 +322,6 @@ body {
 .contact-info a:hover {
     text-decoration: underline;
 }
-
-/* .contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: left;
-} */
-
-/* .contact-form label {
-    display: block;
-    margin: 10px 0 5px;
-} */
 
 .contact-form input,
 .contact-form textarea {
@@ -392,9 +370,7 @@ body {
     .project-section{
         padding: 15px ;
     }
-    /* .form-info{
-        width: 300px;
-    } */
+   
     .contact-info{
        
         background-color: #08672f;
@@ -420,9 +396,7 @@ body {
         margin-bottom: 10px;
     }
 
-    /* #about, #projects{
-        padding: 1rem 0;
-    } */
+   
     .about-section p{
         font-size: 1rem;
     }
