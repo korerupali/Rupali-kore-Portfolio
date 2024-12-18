@@ -21,6 +21,14 @@ body {
     font-size: 24px;                   
     font-weight: bold;                 
 }
+.resume-btn {
+    background-color: #007BFF;
+    color: #FFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+   
+  }
 
   /* Navbar Styles */
 .navbar {
