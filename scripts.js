@@ -1,9 +1,9 @@
 // Select all nav-links and add event listener to hide navbar on click
 document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
     link.addEventListener('click', function() {
-        // Check if the screen width is mobile/tablet and the navbar is expanded
+       
         if (window.innerWidth <= 991) {
-            // Add class to hide navbar on small screens
+            //  hide navbar on small screens
             document.querySelector('.navbar-collapse').classList.add('hide-navbar');
         }
     });
